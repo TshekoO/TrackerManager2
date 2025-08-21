@@ -1,0 +1,23 @@
+Debug_Notes
+
+1. buggy_frontend.ts Fixed 
+
+Problem Identified 
+The problem was that the TypeScript file had import statements for Angular modules e.g @angular/core and @angular/common/http but the packages were not installed in the project without these packages the project wouldn't have run
+
+
+How it was Fixed 
+
+I fixed the problem by installing the required Angular packages using npm install @angular/core @angular/common
+
+2. buggy_frontend.ts Fixed 
+
+
+Problem Identified 
+
+In CompleteTask, you do not check if task is null before setting task.Completed = true; This will throw a NullReferenceException if the task is not found then API crashes 
+
+How it was Fixed 
+
+I solved the problem by adding a null check(if statement) for the task object in the CompleteTask method, this prevents the exception and provides a proper API response.
+

@@ -1,0 +1,25 @@
+Answers 
+
+1.Explain the difference between an API integration error and a logic error.
+
+An API integration error happens when the application is unable to effectively interface with an external system, and a logic error is a design flaw in the software that leads to inaccurate output.
+
+2. What steps would you take to troubleshoot a non-responsive API call?
+
+    Make sure that the network connection and endpoint URL are correct.
+    Verify that the API server can be reached online.
+    Verify that API keys or authentication tokens are legitimate.
+    For potential issues, check the server logs.
+    Check the data payload and request headers.
+
+3. Why is it important to separate frontend and backend responsibilities?
+
+Keeping front-end and back-end tasks distinct helps to manage development. The codebase is easier to maintain, debugging is made simpler and UI and server logic can operate separately.
+
+4. Name a testing framework or tool you have used or researched and describe its purpose.
+
+I looked into Jest, a testing tool for JavaScript that is used to simulate modules, perform unit tests, and verify that code operates as intended.
+
+5. How do you ensure your code remains maintainable over time?
+
+I ensure that I write readable, understandable code and reworking if necessary to ensure that everything is maintained.
